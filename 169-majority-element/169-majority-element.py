@@ -11,7 +11,7 @@ class Solution:
                 majorBucket[nums[i]] = 1
              
         resCounter = 0
-        result = None
+        result = 0
         
         for key, value in majorBucket.items():
             if value > resCounter:
