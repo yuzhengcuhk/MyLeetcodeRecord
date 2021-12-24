@@ -6,4 +6,6 @@
 <p>博一的时候计划提高一下基础coding能力,要补弱,发现自己数学/代码/写作都弱,完全不知道该先补哪个,然后三年过去了</p>
 <p>博四了,生活所迫,顺便还个愿,所幸号还在,反正还要活个几十年,step by step</p>
 
+<p>Policy: max(40min, 2easy, 1medium)</p>
+
 Reference: QasimWani/LeetHub
