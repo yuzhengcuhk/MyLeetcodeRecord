@@ -17,4 +17,4 @@ class Solution:
                 highNum = midNum - 1
             elif pickFlag == 1:
                 lowNum = midNum + 1
-            
+        return "Error"
