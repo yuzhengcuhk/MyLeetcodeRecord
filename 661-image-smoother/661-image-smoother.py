@@ -13,7 +13,6 @@ class Solution:
                 sumSmoother = 0
                 for j in range(y_min, y_max+1):
                     sumSmoother += sum(img[j][x_min:x_max+1])
-                    print(sumSmoother)
                 result[y][x] = sumSmoother // (x_max-x_min+1) // (y_max-y_min+1) 
         return result
                 
