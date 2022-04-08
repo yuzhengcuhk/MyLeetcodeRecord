@@ -3,9 +3,10 @@ class Solution:
         lineCount = 1
         remainCount = 0
         for i in s:
-            if remainCount + widths[ord(i) - 97] <= 100:
-                remainCount += widths[ord(i) - 97]
+            iWidth = widths[ord(i) - 97] 
+            if remainCount + iWidth <= 100:
+                remainCount += iWidth
             else:
-                remainCount = widths[ord(i) - 97]
+                remainCount = iWidth
                 lineCount += 1
         return [lineCount, remainCount]
