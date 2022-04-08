@@ -1,7 +1,5 @@
 class Solution:
     def numberOfLines(self, widths: List[int], s: str) -> List[int]:
-        if not widths:
-            return [0, 0]
         lineCount = 1
         remainCount = 0
         for i in s:
