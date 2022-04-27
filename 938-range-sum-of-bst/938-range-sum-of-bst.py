@@ -15,6 +15,6 @@ class Solution:
             result += self.rangeSumBST(root.right, low, high)
         elif root.val < low:
             result += self.rangeSumBST(root.right, low, high)
-        elif root.val > high:
+        else:
             result += self.rangeSumBST(root.left, low, high)
         return result
