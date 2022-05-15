@@ -8,15 +8,15 @@ class Solution:
                   '7': 'pqrs',
                   '8': 'tuv',
                   '9': 'wxyz'}
-        def deepFirstSearch(currComb, level):
+        def backTracking(currComb, level):
             if level == len(digits):
                 results.append(currComb)
                 return 
             for alpha in digSet[digits[level]]:
-                deepFirstSearch(currComb+alpha, level+1)
+                backTracking(currComb+alpha, level+1)
                 
         if not digits:
             return []
         results = []
-        deepFirstSearch('', 0)
+        backTracking('', 0)
         return results
