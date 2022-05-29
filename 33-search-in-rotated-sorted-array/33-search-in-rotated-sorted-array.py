@@ -10,8 +10,7 @@ class Solution:
                 if nums[midIndex] < target and nums[rightIndex] >= target:
                     leftIndex = midIndex + 1
                 else:
-                    rightIndex = midIndex - 1
-            
+                    rightIndex = midIndex - 1 
             else:
                 if nums[midIndex] > target and target >= nums[leftIndex]:
                     rightIndex = midIndex - 1
